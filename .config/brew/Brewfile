@@ -1,0 +1,61 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "wagoodman/dive"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Modern replacement for 'ls'
+brew "exa"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# Improved top (interactive process viewer)
+brew "htop"
+# CLI wrapper for basic network utilities on macOS - ip command
+brew "iproute2mac"
+# The Kubernetes package manager
+brew "kubernetes-helm"
+# Pager program similar to more
+brew "less"
+# Utility for directing compilation
+brew "make"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
+# Powerful paging program
+brew "most"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Tool to impose load on and stress test a computer system
+brew "stress"
+# Terminal multiplexer
+brew "tmux"
+# Internet file retriever
+brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
+# A tool for exploring each layer in a docker image
+brew "wagoodman/dive/dive"
+cask "discord"
+cask "insomnia"
+cask "istat-menus"
+cask "iterm2"
+cask "nextcloud"
+cask "steam"
+cask "the-unarchiver"
+cask "virtualbox"
+cask "visual-studio-code"

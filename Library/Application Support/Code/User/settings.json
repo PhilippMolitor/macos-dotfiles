@@ -1,0 +1,93 @@
+{
+    // ui
+    "window.titleBarStyle": "native",
+    "breadcrumbs.enabled": true,
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    // ms bullshit
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    // theming
+    "workbench.colorTheme": "Gatito Theme",
+    "workbench.iconTheme": "file-icons",
+    // fonts
+    "editor.fontFamily": "Operator Mono SSm Lig",
+    "editor.fontSize": 11,
+    "editor.fontWeight": "300",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Operator Mono SSm Lig",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "300",
+    // editor
+    "editor.cursorBlinking": "expand",
+    "editor.renderIndentGuides": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.rulers": [
+        79, // Python
+        99 // Rust
+    ],
+    // terminal
+    "terminal.integrated.shell.osx": "zsh",
+    // git
+    "git.confirmSync": false,
+    "git.confirmEmptyCommits": false,
+    // python
+    "python.disableInstallationCheck": true,
+    "python.terminal.activateEnvironment": true,
+    "python.formatting.provider": "autopep8",
+    "python.linting.enabled": false,
+    // rust
+    "rust.full_docs": true,
+    "rust.jobs": 4,
+    "rust-client.updateOnStartup": true,
+    // vim
+    "vim.sneak": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.duration": 1000,
+    "vim.overrideCopy": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": "#222222",
+    "vim.statusBarColors.insert": "#6c0259",
+    "vim.statusBarColors.visual": "#d7dd38",
+    "vim.statusBarColors.visualblock": "#d7dd38",
+    "vim.statusBarColors.visualline": "#d7dd38",
+    "vim.autoindent": true,
+    "vim.showmodename": true,
+    "vim.useSystemClipboard": true,
+    "vim.incsearch": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#222222",
+        "statusBar.noFolderBackground": "#222222",
+        "statusBar.debuggingBackground": "#222222"
+    },
+    // eslint
+    "eslint.autoFixOnSave": true,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+    ],
+    // emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "emmet.includeLanguages": {
+        "jinja": "html"
+    }
+}
