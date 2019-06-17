@@ -1,10 +1,10 @@
 {
     // ui
     "window.titleBarStyle": "native",
+    "window.zoomLevel": 0,
     "breadcrumbs.enabled": true,
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
-    "window.zoomLevel": 0,
     "explorer.confirmDragAndDrop": false,
     // ms bullshit
     "telemetry.enableTelemetry": false,
@@ -23,6 +23,12 @@
     // editor
     "editor.cursorBlinking": "expand",
     "editor.renderIndentGuides": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "boundary",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.renderCharacters": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.smoothScrolling": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -32,7 +38,9 @@
         99 // Rust
     ],
     // terminal
+    "terminal.integrated.shell.windows": "powershell",
     "terminal.integrated.shell.osx": "zsh",
+    "terminal.integrated.shell.linux": "zsh",
     // git
     "git.confirmSync": false,
     "git.confirmEmptyCommits": false,
@@ -49,6 +57,8 @@
     "vetur.completion.autoImport": true,
     "vetur.completion.useScaffoldSnippets": true,
     "vetur.format.enable": true,
+    "vetur.format.options.tabSize": 2,
+    "vetur.format.options.useTabs": false,
     "vetur.format.defaultFormatter.js": "prettier-eslint",
     "vetur.format.defaultFormatter.html": "js-beautify-html",
     "vetur.format.defaultFormatter.css": "prettier",
@@ -69,9 +79,9 @@
     "vim.useSystemClipboard": true,
     "vim.incsearch": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#6c0259",
-        "statusBar.noFolderBackground": "#6c0259",
-        "statusBar.debuggingBackground": "#6c0259"
+        "statusBar.background": "#222222",
+        "statusBar.noFolderBackground": "#222222",
+        "statusBar.debuggingBackground": "#222222"
     },
     // eslint
     "eslint.autoFixOnSave": true,
