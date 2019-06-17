@@ -1,25 +1,48 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "wagoodman/dive"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# GNU binary tools for native development
+brew "binutils"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# File comparison utilities
+brew "diffutils"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
 # Isolated development environments using Docker
 brew "docker-compose"
+# Classic UNIX line editor
+brew "ed"
 # Modern replacement for 'ls'
 brew "exa"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU awk utility
+brew "gawk"
+# Distributed revision control system
+brew "git"
+# C code prettifier
+brew "gnu-indent"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# GNU version of the tar archiving utility
+brew "gnu-tar"
+# GNU implementation of which utility
+brew "gnu-which"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# GNU grep, egrep and fgrep
+brew "grep"
+# Popular GNU data compression program
+brew "gzip"
 # Improved top (interactive process viewer)
 brew "htop"
 # CLI wrapper for basic network utilities on macOS - ip command
@@ -34,16 +57,28 @@ brew "make"
 brew "moreutils"
 # Powerful paging program
 brew "most"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Highly capable, feature-rich programming language
+brew "perl"
+# Terminal multiplexer with VT100/ANSI terminal emulation
+brew "screen"
 # Tool to impose load on and stress test a computer system
 brew "stress"
 # Terminal multiplexer
 brew "tmux"
+# Extraction utility for .zip compressed archives
+brew "unzip"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Display word differences between text files
+brew "wdiff"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
@@ -56,6 +91,8 @@ cask "istat-menus"
 cask "iterm2"
 cask "nextcloud"
 cask "steam"
+cask "telegram"
 cask "the-unarchiver"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "whatsapp"
