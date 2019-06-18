@@ -38,7 +38,7 @@
         99 // Rust
     ],
     // terminal
-    "terminal.integrated.shell.windows": "powershell",
+    "terminal.integrated.shell.windows": "powershell.exe",
     "terminal.integrated.shell.osx": "zsh",
     "terminal.integrated.shell.linux": "zsh",
     // git
