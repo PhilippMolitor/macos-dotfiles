@@ -79,10 +79,15 @@
     "vim.useSystemClipboard": true,
     "vim.incsearch": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#222222",
-        "statusBar.noFolderBackground": "#222222",
-        "statusBar.debuggingBackground": "#222222"
+        "statusBar.background": "#6c0259",
+        "statusBar.noFolderBackground": "#6c0259",
+        "statusBar.debuggingBackground": "#6c0259"
     },
+    // YAML
+    "yaml.format.enable": false,
+    "yaml.completion": true,
+    "yaml.format.singleQuote": true,
+    "yaml.format.bracketSpacing": true,
     // eslint
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
@@ -106,4 +111,5 @@
     "emmet.includeLanguages": {
         "jinja": "html"
     },
+    "explorer.confirmDelete": false,
 }

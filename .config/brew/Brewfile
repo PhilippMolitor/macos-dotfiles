@@ -1,22 +1,25 @@
+tap "drone/drone"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "k14s/tap"
+tap "rigellute/tap"
 tap "wagoodman/dive"
+# Programmable completion for Bash 3.2
+brew "bash-completion"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # GNU binary tools for native development
 brew "binutils"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Top-like interface for container metrics
+brew "ctop"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # File comparison utilities
 brew "diffutils"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
-# Isolated development environments using Docker
-brew "docker-compose"
 # Classic UNIX line editor
 brew "ed"
 # Modern replacement for 'ls'
@@ -29,8 +32,12 @@ brew "fzf"
 brew "gawk"
 # Distributed revision control system
 brew "git"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # C code prettifier
 brew "gnu-indent"
+# Prolog compiler with constraint solving
+brew "gnu-prolog"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU version of the tar archiving utility
@@ -43,6 +50,8 @@ brew "gnutls"
 brew "grep"
 # Popular GNU data compression program
 brew "gzip"
+# Command-line hex viewer
+brew "hexyl"
 # Improved top (interactive process viewer)
 brew "htop"
 # CLI wrapper for basic network utilities on macOS - ip command
@@ -57,6 +66,8 @@ brew "make"
 brew "moreutils"
 # Powerful paging program
 brew "most"
+# Open source relational database management system
+brew "mysql-client"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Fast, highly customisable system info script
@@ -83,16 +94,32 @@ brew "wdiff"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+brew "drone/drone/drone"
+# Kapp
+brew "k14s/tap/kapp"
+# kbld helps working with container images used in Kubernetes configuration files
+brew "k14s/tap/kbld"
+# Kubernetes Workstation Tools
+brew "k14s/tap/kwt"
+# YAML Templating Tool
+brew "k14s/tap/ytt"
+# A terminal user interface for Spotify
+brew "rigellute/tap/spotify-tui"
 # A tool for exploring each layer in a docker image
 brew "wagoodman/dive/dive"
+cask "android-platform-tools"
+cask "blender"
 cask "discord"
+cask "docker"
+cask "google-chrome"
 cask "insomnia"
 cask "istat-menus"
 cask "iterm2"
+cask "julia"
+cask "mactex-no-gui"
 cask "nextcloud"
 cask "steam"
 cask "telegram"
 cask "the-unarchiver"
-cask "virtualbox"
 cask "visual-studio-code"
 cask "whatsapp"
