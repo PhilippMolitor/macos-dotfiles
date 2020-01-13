@@ -97,12 +97,12 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
 # defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set language and text formats
-#defaults write NSGlobalDomain AppleLanguages -array "en"
-#defaults write NSGlobalDomain AppleLocale -string "en_US@currency=EUR"
-#defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
-#defaults write NSGlobalDomain AppleMetricUnits -bool true
+defaults write NSGlobalDomain AppleLanguages -array "en"
+defaults write NSGlobalDomain AppleLocale -string "en_US@currency=EUR"
+defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
+defaults write NSGlobalDomain AppleMetricUnits -bool true
 # Enable language menu in the top right corner of the boot screen
-sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
+sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool false
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Berlin" > /dev/null
 
@@ -128,7 +128,7 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 ###############################################################################
 
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
-defaults write com.apple.finder QuitMenuItem -bool true
+defaults write com.apple.finder QuitMenuItem -bool false
 # Finder: disable window animations and Get Info animations
 defaults write com.apple.finder DisableAllAnimations -bool false
 # Set home as the default location for new Finder windows
