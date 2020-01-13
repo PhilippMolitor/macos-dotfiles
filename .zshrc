@@ -110,16 +110,17 @@ alias vi="$VISUAL"
 alias vim="$VISUAL"
 
 # in case someone (me) fucked up again...
-alias fuck='sudo env "PATH=$PATH" $(fc -ln -1)'
+alias fuck='sudo env "PATH=$PATH" $(fc -ln -1) '
+alias sudo='sudo '
 
 # happens from time to time...
 alias :q="exit"
 
 # ls on steroids
 if (( $+commands[exa] )) ; then
-  alias ls="exa --header --extended --git --group --group-directories-first --color-scale --color=always"
+  alias ls="exa --header --git --group --group-directories-first --color-scale --color=always"
   alias lm="exa --header --long --group --sort=modified --reverse --color always --color-scale"
-  alias lt="ls --long --tree --all --ignore-glob .git"
+  alias lt="ls --long --tree --all --git-ignore"
 fi
 
 alias ll="ls -l"
@@ -145,6 +146,7 @@ housekeeping () {
   brew upgrade
   brew cask upgrade
   brew cleanup
+  zplug update
 }
 
 brewdump () {

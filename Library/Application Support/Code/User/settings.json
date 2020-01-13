@@ -4,8 +4,9 @@
     "window.zoomLevel": 0,
     "breadcrumbs.enabled": true,
     "workbench.startupEditor": "none",
-    "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": false,
     // ms bullshit
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
@@ -14,7 +15,7 @@
     "workbench.iconTheme": "file-icons",
     // fonts
     "editor.fontFamily": "Operator Mono SSm Lig",
-    "editor.fontSize": 11,
+    "editor.fontSize": 12,
     "editor.fontWeight": "300",
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "Operator Mono SSm Lig",
@@ -79,10 +80,13 @@
     "vim.useSystemClipboard": true,
     "vim.incsearch": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#6c0259",
-        "statusBar.noFolderBackground": "#6c0259",
-        "statusBar.debuggingBackground": "#6c0259"
+        "statusBar.background": "#222222",
+        "statusBar.noFolderBackground": "#222222",
+        "statusBar.debuggingBackground": "#222222"
     },
+    // Prolog
+    "prolog.dialect": "swi",
+    "prolog.executablePath": "/usr/local/bin/swipl",
     // YAML
     "yaml.format.enable": false,
     "yaml.completion": true,
@@ -111,5 +115,7 @@
     "emmet.includeLanguages": {
         "jinja": "html"
     },
-    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
 }

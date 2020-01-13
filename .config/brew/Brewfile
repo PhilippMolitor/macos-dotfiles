@@ -1,11 +1,15 @@
 tap "drone/drone"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "k14s/tap"
 tap "rigellute/tap"
 tap "wagoodman/dive"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -24,6 +28,8 @@ brew "diffutils"
 brew "ed"
 # Modern replacement for 'ls'
 brew "exa"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # Command-line fuzzy finder written in Go
@@ -32,16 +38,14 @@ brew "fzf"
 brew "gawk"
 # Distributed revision control system
 brew "git"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # C code prettifier
 brew "gnu-indent"
-# Prolog compiler with constraint solving
-brew "gnu-prolog"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
+# GNU implementation of time utility
+brew "gnu-time"
 # GNU implementation of which utility
 brew "gnu-which"
 # GNU Transport Layer Security (TLS) Library
@@ -50,14 +54,14 @@ brew "gnutls"
 brew "grep"
 # Popular GNU data compression program
 brew "gzip"
+# The Kubernetes package manager
+brew "helm"
 # Command-line hex viewer
 brew "hexyl"
 # Improved top (interactive process viewer)
 brew "htop"
 # CLI wrapper for basic network utilities on macOS - ip command
 brew "iproute2mac"
-# The Kubernetes package manager
-brew "kubernetes-helm"
 # Pager program similar to more
 brew "less"
 # Utility for directing compilation
@@ -67,6 +71,8 @@ brew "moreutils"
 # Powerful paging program
 brew "most"
 # Open source relational database management system
+brew "mysql"
+# Open source relational database management system
 brew "mysql-client"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
@@ -74,50 +80,49 @@ brew "nano"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node"
-# Highly capable, feature-rich programming language
-brew "perl"
+# Small build system for use with gyp or CMake
+brew "ninja"
+# Manage multiple Node.js versions
+brew "nvm"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
 # Terminal multiplexer with VT100/ANSI terminal emulation
 brew "screen"
 # Tool to impose load on and stress test a computer system
 brew "stress"
+# ISO/Edinburgh-style Prolog interpreter
+brew "swi-prolog"
 # Terminal multiplexer
 brew "tmux"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
-# Display word differences between text files
-brew "wdiff"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 brew "drone/drone/drone"
-# Kapp
-brew "k14s/tap/kapp"
-# kbld helps working with container images used in Kubernetes configuration files
-brew "k14s/tap/kbld"
-# Kubernetes Workstation Tools
-brew "k14s/tap/kwt"
-# YAML Templating Tool
-brew "k14s/tap/ytt"
 # A terminal user interface for Spotify
 brew "rigellute/tap/spotify-tui"
 # A tool for exploring each layer in a docker image
 brew "wagoodman/dive/dive"
-cask "android-platform-tools"
+cask "alacritty"
+cask "anaconda"
+cask "avibrazil-rdm"
+cask "balenaetcher"
 cask "blender"
 cask "discord"
-cask "docker"
+cask "docker-edge"
+cask "firefox-developer-edition"
 cask "google-chrome"
 cask "insomnia"
 cask "istat-menus"
-cask "iterm2"
 cask "julia"
 cask "mactex-no-gui"
 cask "nextcloud"
+cask "onyx"
+cask "sequel-pro"
 cask "steam"
 cask "telegram"
 cask "the-unarchiver"
