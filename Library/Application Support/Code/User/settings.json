@@ -33,11 +33,16 @@
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
     "editor.autoClosingBrackets": "always",
     "editor.rulers": [
         79, // Python
         99 // Rust
     ],
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     // terminal
     "terminal.integrated.shell.windows": "powershell.exe",
     "terminal.integrated.shell.osx": "zsh",
@@ -92,22 +97,6 @@
     "yaml.completion": true,
     "yaml.format.singleQuote": true,
     "yaml.format.bracketSpacing": true,
-    // eslint
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        }
-    ],
     // emmet
     "emmet.triggerExpansionOnTab": true,
     "emmet.showSuggestionsAsSnippets": true,
@@ -115,7 +104,4 @@
     "emmet.includeLanguages": {
         "jinja": "html"
     },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
 }

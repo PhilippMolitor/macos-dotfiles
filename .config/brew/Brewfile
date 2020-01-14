@@ -24,8 +24,6 @@ brew "ctop"
 brew "curl"
 # File comparison utilities
 brew "diffutils"
-# Classic UNIX line editor
-brew "ed"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
