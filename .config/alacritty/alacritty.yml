@@ -25,7 +25,7 @@ scrolling:
 
 font:
   use_thin_strokes: true
-  size: 12.0
+  size: 14.0
   normal:
     family: Operator Mono SSm Lig
     style: Book
